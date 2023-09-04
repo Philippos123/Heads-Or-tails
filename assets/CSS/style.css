@@ -1,20 +1,43 @@
-body{
-    text-align: center;
+
     
-}
 #title {
     height: 80px;
     margin-top: 40px;
+    text-align: center;
     
 }
 
-#head-button{
-    width: 90px;
-    height: 90px;
-    left: 50px;
+
+
+#game-area{
+text-align: center;
+width: 60%;
+margin-top: 60px;
+height: 300px;
+margin-bottom: 60px;
+background-color: lightblue;
+margin-left: 20%;
+border-radius: 2px;
+box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-#tail-button {
-    width: 90px;
-    height: 90px;
+
+#head-button{
+margin-right: 25%;
+}
+
+#tail-button{
+margin-left: 25%;
+margin-top: 60px;
+}
+
+#head-icon{
+    width: 120px;
+    height: 120px;
+    
+}
+#tail-icon {
+    width: 120px;
+    height: 120px;
+
     
 }
