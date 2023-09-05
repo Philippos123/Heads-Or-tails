@@ -6,6 +6,12 @@
     text-align: center;
     
 }
+#description{
+    text-align: center;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: medium;
+}
 
 
 
@@ -23,11 +29,15 @@ box-shadow:0px 0px 10px rgba(0, 0, 0, 0.5);
 
 #head-button{
 margin-right: 25%;
+border-radius: 5px;
+font-size: 22px;
 }
 
 #tail-button{
 margin-left: 25%;
 margin-top: 60px;
+border-radius: 5px;
+font-size: 22px;
 }
 
 #head-icon{
@@ -40,4 +50,15 @@ margin-top: 60px;
     height: 120px;
 
     
+}
+
+#questionmark{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#score-bord{
+    text-align: center;
+    font-size: 30px;
 }

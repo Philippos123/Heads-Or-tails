@@ -12,20 +12,24 @@
 </head>
 <body>
     <div><h2 id="title">Heads or Tails</h2></div>
-        <div id="game-area" class="float"> <button type="button" onclick="buttonClick()" id="head-buttpn">
-            <img src="assets/images/Heads.png" alt="Image Button" id="head-icon">
-        </button> <button type="button" onclick="buttonClick()" id="tail-button">  
-            <img src="assets/images/tails.png" alt="Image Button" id="tail-icon">
+    <div id="description"> <div>This is a Heads & Tails game.</div>  
+                        <div> You are playing aginast the computer in this game where you choose either Heads or Tails on tha buttons below</div>
+                            <div> After you press the button you will see if you win or not below the buttons on the question mark.</div>
+                                <div>GOOD LUCK! </div>
+                        </div>
+                        <a href="https://www.flaticon.com/free-icons/uk-flag" title="uk flag icons">Uk flag icons created by Freepik - Flaticon</a>
+        <div id="game-area" class="float"> 
+            <button type="button" onclick="buttonClick()" id="head-button"> Heads</button> 
+            <button type="button" onclick="buttonClick()" id="tail-button"> Tails </button> 
+            
             <div>
-
+                <h3 id="questionmark">?</h3>
             </div>
-            <div>
-               
-            </div>
+            
 
         </div>
 
-        <div> Right or wrong </div>
+        <div id="score-bord"> <div id="right">Right 0 </div>  <div id="wrong">Wrong 0</div></div>
 <script src="assets/js/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
