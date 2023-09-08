@@ -80,3 +80,10 @@ font-size: 22px;
 #langugage{
     text-align: center;
 }
+
+.flag-image {
+    max-width: 100%; /* Make the image as wide as its container (the button) allows */
+    max-height: 100%; /* Make the image as tall as its container (the button) allows */
+    display: block; /* Remove any extra spacing around the image */
+    margin: auto; /* Center the image horizontally within the button */
+  }
