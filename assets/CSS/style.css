@@ -33,6 +33,18 @@ border-radius: 5px;
 font-size: 22px;
 }
 
+#klöver-button{
+    margin-left: 25%;
+    border-radius: 5px;
+    font-size: 22px;
+}
+#krona-button{
+    margin-top: 60px;
+margin-right: 25%;
+border-radius: 5px;
+font-size: 22px;
+}
+
 #tail-button{
 margin-left: 25%;
 margin-top: 60px;
@@ -61,6 +73,32 @@ font-size: 22px;
 #score-bord{
     text-align: center;
     font-size: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#poäng-bord{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    margin-bottom:  50px;
+}
+#rätt, #fel {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+#rätt, #right{
+    color: green;
+}
+
+#fel, #wrong{
+    color: red;
+}
+
+#right, #wrong {
+    display: inline-block; 
+    margin-right: 10px; 
 }
 
 
