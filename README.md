@@ -2,6 +2,7 @@
 
 Heads or Tails is a website with a coinflip game where you have a  50/50% chance of winning. 
 The site is clean and easy to understand. For our younger audience, we have added a translation button to the Swedish language that is compatible with the game.    
+![Site](assets/images/english.png)
 
     ()
 ## Swedish 
@@ -15,6 +16,7 @@ _Language change buttons_
 _Game_ 
 -Heads or tails buttons gives the player a choose of there own liking if they want to bet on heads or tails, this game will translate to the swedish Krona eller Klöver if you press the Swedish button.
 - The Questionmark is the place where you will get the alert if you win or not.
+  ![Game](assets/images/English-test-count.png)
   ()
 
 _Counter_
@@ -23,6 +25,7 @@ _Counter_
 
 ### Testing 
 I have been doing alot of test to check if the site is working right. The first way of doing in was to click on the Heads button 50 times and then the Tails button 50 times and check in Chrome dev tool if it pop up any syntaxError or any sort of error wich it didn´t and exactly the same on the Swedish version. Then looked if the counter i have fixed is correct by track how many correct i have and see if they match. 
+![Testing](assets/images/Swedish-test-count.png)
 
 ## Validator test
 
@@ -30,7 +33,7 @@ I have been doing alot of test to check if the site is working right. The first 
  - One Error did i find in the HTML and it was the charset=utf-8 that i dont understand why and it doesnt effect the website in anyway.
 -CSS
   - No errors came back from the Jigsaw.
-  ()
+  ![Lighthouse](assets/images/Lighthouse.png)
 
 ## Deployment
 
