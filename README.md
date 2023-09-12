@@ -1,39 +1,51 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Heads or Tails
 
-Welcome,
+Heads or Tails is a website with a coinflip game where you have a  50/50% chance of winning. 
+The site is clean and easy to understand. For our younger audience, we have added a translation button to the Swedish language that is compatible with the game.    
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## English
+    ()
+## Swedish
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+_Language change buttons_ 
+-Swedish button makes it possible for user that doesnt understand English to play the game. 
+-English button makes it possible for user that like to explore websites and it´s functions to return to the main site. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+_Game_ 
+-Heads or tails buttons gives the player a choose of there own liking if they want to bet on heads or tails, this game will translate to the swedish Krona eller Klöver if you press the Swedish button.
+- The Questionmark is the place where you will get the alert if you win or not.
 
-`python3 -m http.server`
+_Counter_
+-Underneath the game you will see a green “Right” and red “wrong”, these will calculate how many times you have bet on the correct side of the coin and how many times you picked the wrong side. 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Testing 
+I have been doing alot of test to check if the site is working right. The first way of doing in was to click on the Heads button 50 times and then the Tails button 50 times and check in Chrome dev tool if it pop up any syntaxError or any sort of error wich it didn´t and exactly the same on the Swedish version. Then looked if the counter i have fixed is correct by track how many correct i have and see if they match. 
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Validator test
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+-HTML 
+ - One Error did i find in the HTML and it was the charset=utf-8 that i dont understand why and it doesnt effect the website in anyway.
+-CSS
+ - No errors came back from the Jigsaw.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Deployment
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
----
 
-Happy coding!
+
+#Credits
+
+Instructions to create a 50/50 game came from a specific youtube video and w3schools
+I took inspirations from the Math game we created earlier 
+Took help from ChatGPT to help me find Typos 
